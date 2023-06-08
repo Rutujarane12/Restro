@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>restro Cart Page</title>
+        <!-- Boostrap Css -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+        <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css'>
+        
+        <!-- Remix Icons -->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+        <!-- Style Css -->
+        <link rel="stylesheet" href="./assets/css/online_order.css">
+    </head>
+    <body data-bs-spy="scroll" data-bs-target=".navbar">
+
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg bg-white shadow py-3 sticky-top">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <!-- <img src="./assets/images/Qrispy_dark.svg" alt=""> -->
+                    <h2>RESTRO</h2>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>                   
+            </div>
+        </nav>
+
+        <!-- Cart Table -->
+        <section class="bg-light">
+            <div class="producstOnCart hide cart">
+                <div class="overlay"></div>
+                <!-- <div class="top d-flex">
+                    <button type="button" class="btn-close" id="closeButton" aria-label="Close"></button>
+                    
+                </div> -->
+                <h3 class="cartName ">Your Cart</h3>
+                <div class="cartItems">
+                    <ul id="buyItems" style="width: 70%;">
+                        <h4 class="empty">Your shopping cart is empty</h4>
+                        <!-- <li class="buyItem">
+                            <img src="Images/producs-images/Mobiles/galaxynote10.png">
+                            <div>
+                                <h5>Products Name</h5>
+                                <h6>$199</h6>
+                                <div>
+                                    <button>-</button>
+                                    <span class="countOfProduct">1</span>
+                                    <button>+</button>
+                                </div>
+                            </div>
+                        </li> -->
+                    </ul>
+                    <!-- <div class="total">
+                        <div class="total-title">Total</div>
+                        <div class="total-price">Rs.0</div>
+                      </div>
+ -->
+                    
+                </div>
+                
+                <button class="btn btn-brand checkout hidden">Check out</button>
+            </div>
+        </section>
+
+        <div>
+            <h2 id="demo"></h2>
+        </div>
+        
+        <!-- Bootstrap Bundle Js -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+        
+        
+        <!-- <script src="./assets/js/new1.js"></script> -->
+        <script src="./assets/js/onine_order.js"></script>
+        
+        
+    </body>
+    
+
+</html>
+
+
+<!-- 
+<div class="container p-4  ">
+    <div class="row">
+        <div class="col-12 intro-text">
+            <h1>Your cart</h1>
+            <p>We pride ourselves on using only the freshest, locally sourced ingredients to create flavorful and unforgettable dishes.</p> 
+        </div>
+    </div>
+</div>
+
+<div class="uk-overflow-auto container p-4" style = 'width: 60%;'>
+    <table class="uk-table uk-table-hover uk-table-middle uk-table-divider">
+        <thead>
+            <tr>
+                <th class="uk-table-shrink"></th>
+                <th class="uk-table-small sty"><h3>ITEM</h3></th>
+                <th class="uk-table-small"></th>
+                <th class="uk-width-small sty"><h3>PRICE</h3></th>
+                <th class="uk-table-shrink uk-text-small sty"><h3>QUANTITY</h3></th>
+                <th class="uk-table-shrink uk-text-small sty"><h3>TOTAL</h3></th>
+
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><input class="uk-checkbox" type="checkbox"></td>
+                <td><img class="uk-preserve-width uk-border-circle" src="img/strawberry_cake.jpg" width="40" alt=""></td>
+                <td class="uk-table-link">
+                    <h3 class = "item-name">Strawberry Cake</h3>
+                </td>
+                <td class="uk-text-truncate item-price"><h3>$100</h3></td>
+                <td><input type = 'number' class = 'num' value = '1'></td>
+                <td class="uk-text-truncate total-price"><h3>$100</h3></td>
+                <td><button class="uk-button uk-button-danger" type="button">Remove</button></td>
+            </tr>
+      
+
+        </tbody>
+        <tr>
+          <td><input class="uk-checkbox" type="checkbox"></td>
+          <td><img class="uk-preserve-width uk-border-circle"  width="40" alt=""></td>
+          <td class="uk-table-link">
+              <h3 class = "item-name"><strong>Grand-Total</strong></h3>
+          </td>
+          <td class="uk-text-truncate"><h3></h3></td>
+          <td class="uk-text-truncate"><h3></h3></td>
+          <td class="uk-text-truncate grand-total"><h3><strong>$0</strong></h3></td>
+          
+      </tr>
+    </table>
+</div> -->
